@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(5, 5, 5);
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 2px black, 0 0 25 px palevioletred, 0 0 5px plum;
+  background-color: bisque;
+}
+
+img {
+  width: 400px;
+  height: 500px;
+  object-fit:  cover;
+  box-shadow: 0px 5 px 10 px 0 px blanchedalmond;
+}
+
+p {
+  text-align: left;
+}
+
+button {
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.on {
+  color: black
+}
+
+div.car {
+  background-color: azure;
+  color:black
+}
