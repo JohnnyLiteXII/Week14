@@ -45,7 +45,7 @@ export default class MovieList extends React.Component {
     }
 
     handleMovieReview = (movieId, review) => {
-        // Update the reviews of a specific movie
+        // Update the reviews of a specific movie.
         const updatedMovies = this.state.movies.map(movie => {
             if (movie.id === movieId) {
                 return {
