@@ -6,6 +6,7 @@ import ReviewForm from "./review-form";
 export default class Movie extends React.Component {
 constructor(props) {
     super(props);
+    console.log('this is my props:', props) 
     // Initialize the component state with reviews and rating from props
     this.state = {
     reviews: props.reviews,
