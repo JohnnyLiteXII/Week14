@@ -31,7 +31,7 @@ const Star = (props) => {
                         onMouseLeave={() => setHover(0)}
                     >
                         {/* Display a filled star if it's rated or if it's hovered, otherwise display an empty star */}
-                        {((index <= averageRating) || (index <= rating)) ? <span className="star">&#9733</span> : <span className="star">&#9734</span>}
+                        {((index <= averageRating) || (index <= rating)) ? <span className="star">&#9733;</span> : <span className="star">&#9734;</span>}
                     </button>
                 );
             })}
